@@ -5,10 +5,10 @@ const conexion = mysql.createConnection({
   user: 'root',
   password: '',
   database: 'estacionamiento'
-});
+})
 
 conexion.connect((err) => {
   if (err) throw err;
-});
+})
 
 module.exports = conexion;

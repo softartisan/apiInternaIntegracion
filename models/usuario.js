@@ -82,7 +82,6 @@ const crearCliente = (username, password, email, nombre, apellido, telefono, cal
       callback(undefined, true);
     }
   })
-
 }
 
 const crearArrendador = (username, password, email, nombre, apellido, telefono, callback) => {
@@ -95,7 +94,6 @@ const crearArrendador = (username, password, email, nombre, apellido, telefono, 
       callback(undefined, true);
     }
   })
-
 }
 
 
